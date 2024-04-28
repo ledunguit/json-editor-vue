@@ -9,7 +9,7 @@ import { visualizer } from 'rollup-plugin-visualizer'
 import { PascalCasedName, name } from './package.json'
 
 const { major, minor } = parse(version) as SemVer
-
+console.log(major, minor)
 export default {
   optimizeDeps: {
     exclude: ['vue-demi'],
@@ -22,7 +22,7 @@ export default {
     sourcemap: true,
     rollupOptions: {
       external: [
-        'vanilla-jsoneditor',
+        '@ledangdung/vanilla-jsoneditor',
         'vue-demi',
       ],
       output: {
@@ -35,7 +35,7 @@ export default {
   plugins: [{
     name: 'html-transform',
     transformIndexHtml(html: string) {
-      return html.replace(/\{\{ NAME \}\}/, name).replace(/\{\{ VUE_VERSION \}\}/g, String(major === 3 ? major : `${major}.${minor}`))
+      return html.replace(/\{\{ NAME }}/, name).replaceAll(/\{\{ VUE_VERSION }}/g, String(major === 3 ? major : `${major}.${minor}`))
     },
   }, dts({ rollupTypes: true }), AutoImport({
     // targets to transform

@@ -1,6 +1,6 @@
 import { debounce } from 'lodash-es'
-import type { Mode } from 'vanilla-jsoneditor'
-import { JSONEditor } from 'vanilla-jsoneditor'
+import type { Mode } from '@ledangdung/vanilla-jsoneditor'
+import { JSONEditor } from '@ledangdung/vanilla-jsoneditor'
 import { computed, defineComponent, getCurrentInstance, h, isVue3, onMounted, onUnmounted, ref, unref, watch, watchEffect } from 'vue-demi'
 import type { PropType } from 'vue-demi'
 import { conclude } from 'vue-global-config'
