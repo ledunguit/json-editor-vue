@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@ledangdung/vanilla-jsoneditor':
-        specifier: ^0.25.0
-        version: 0.25.0(@lezer/common@1.2.1)
+        specifier: ^0.26.0
+        version: 0.26.0(@lezer/common@1.2.1)
       '@vue/composition-api':
         specifier: '>=1'
         version: 1.7.2(vue@3.4.25(typescript@5.4.5))
@@ -782,8 +782,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@ledangdung/vanilla-jsoneditor@0.25.0':
-    resolution: {integrity: sha512-tj3CDF3XIFQlxa/WX5sDDQMAx0i7z2bon5AClTCWtw/WkrBob/4bmo6DhLwJETtGxca7+DGDIaxxGWK6l+Hnwg==}
+  '@ledangdung/vanilla-jsoneditor@0.26.0':
+    resolution: {integrity: sha512-taTVBe9QKWfqZAhAYrbIG+pS/uprCqlpC37Wt4yPrJIuf1Lthait57jcexaMdZ5Wy5FYxSVQaYDSPK+DjRGQwQ==}
 
   '@lezer/common@1.2.1':
     resolution: {integrity: sha512-yemX0ZD2xS/73llMZIK6KplkjIjf2EvAHcinDi/TfJ9hS25G0388+ClHt6/3but0oOxinTcQHJLDXh6w1crzFQ==}
@@ -4318,7 +4318,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@ledangdung/vanilla-jsoneditor@0.25.0(@lezer/common@1.2.1)':
+  '@ledangdung/vanilla-jsoneditor@0.26.0(@lezer/common@1.2.1)':
     dependencies:
       '@codemirror/autocomplete': 6.16.0(@codemirror/language@6.10.1)(@codemirror/state@6.4.1)(@codemirror/view@6.26.3)(@lezer/common@1.2.1)
       '@codemirror/commands': 6.5.0

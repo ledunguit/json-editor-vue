@@ -73,7 +73,7 @@
     }
   },
   "dependencies": {
-    "@ledangdung/vanilla-jsoneditor": "^0.25.0",
+    "@ledangdung/vanilla-jsoneditor": "^0.26.0",
     "vue-demi": "^0.14.7"
   },
   "devDependencies": {
